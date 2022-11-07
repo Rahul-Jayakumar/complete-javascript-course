@@ -12,11 +12,14 @@ const language = "";
 console.log({ isIsland, population, country, language });
 
 //LECTURE: Basic Operators
-halfpopulation = population/2;
+halfpopulation = population / 2;
 console.log(halfpopulation);
 console.log(population + 1);
-console.log(country + ' has more people than Finland.')
-console.log(country + "has more than 33000000 people.")
+console.log(country + ' has more people than the 6 million people in Finland.')
+console.log(country + " has more than 33 million people.")
+const description = "Portugal is in Europe, and its 11 million people speak portuguese.";
+console.log(description);
 
+//LECTURE: Strings and Template Literals 
 
 
