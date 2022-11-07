@@ -23,3 +23,7 @@ console.log(description);
 //LECTURE: Strings and Template Literals 
 
 
+let x = 5;
+console.log(x++);
+
+
