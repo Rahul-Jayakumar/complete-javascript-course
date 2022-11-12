@@ -31,3 +31,27 @@ const description = `Portugal is in Europe,
 and its 11 million people
 speak Portuguese.`
 console.log(description);
+
+//LECTURE: Taking Decisions: if / else Statements 
+
+console.log(population);
+let average = 33000000 - population;
+console.log(average);
+console.log(average > population);
+if (population > average) {
+    console.log(`${country}'s population is above average.`);
+} else {
+    console.log(`${country}'s population is below average. It is ${average} people below average.`);
+}
+
+
+//CODING CHALLENGE 2:
+
+
+
+
+
+
+
+
+//LECTURE: Equality Operators: == vs. === 
