@@ -17,8 +17,8 @@ console.log(halfpopulation);
 console.log(population + 1);
 console.log(country + ' has more people than the 6 million people in Finland.')
 console.log(country + " has more than 33 million people.")
-const description = "Portugal is in Europe, and its 11 million people speak portuguese.";
-console.log(description);
+// const description = "Portugal is in Europe, and its 11 million people speak Portuguese.";
+// console.log(description);
 
 //LECTURE: Strings and Template Literals 
 
@@ -26,4 +26,8 @@ console.log(description);
 let x = 5;
 console.log(x++);
 
-
+//LECTURE: Strings and Template Literals
+const description = `Portugal is in Europe, 
+and its 11 million people
+speak Portuguese.`
+console.log(description);
