@@ -44,6 +44,18 @@ if (population > average) {
     console.log(`${country}'s population is below average. It is ${average} people below average.`);
 }
 
+//CODING CHALLENGE 1: 0
+
+let markWeight = 78;
+let markHeight = 1.69;
+let johnWeight = 92;
+let johnHeight = 1.95;
+
+markBMI = markWeight / (markHeight ** 2);
+console.log(markBMI);
+johnBMI = johnWeight / (johnHeight ** 2);
+console.log(johnBMI);
+
 
 //CODING CHALLENGE 2:
 
