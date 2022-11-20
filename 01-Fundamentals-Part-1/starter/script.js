@@ -49,15 +49,24 @@ if (population > average) {
 let markWeight = 78;
 let markHeight = 1.69;
 let johnWeight = 92;
-let johnHeight = 1.95;
+let johnHeight = 1.65;
 
 markBMI = markWeight / (markHeight ** 2);
 console.log(markBMI);
 johnBMI = johnWeight / (johnHeight ** 2);
 console.log(johnBMI);
 
+const markHigherBMI = markBMI > johnBMI;
+
 
 //CODING CHALLENGE 2:
+if (markBMI > johnBMI) {
+    console.log(`Hey look at that Mark has a higher BMI than John! Their BMI's are ${markBMI} & ${johnBMI} respectively.`);
+
+} else {
+    console.log(`Hey look at that John has a higher BMI than Mark! Their BMI's are ${markBMI} & ${johnBMI} respectively.`);
+
+};
 
 
 
