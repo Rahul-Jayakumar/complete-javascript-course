@@ -1,14 +1,14 @@
 //LECTURE: VALUES AND VARIABLES
 const country = "South Africa";
 const continent = "Africa";
-let population = 55000000;
+let population = 49000000;
 
 console.log("My country is " + country + ", my continent is " + continent + " and it's population is " + population)
 
 //LECTURE: DATA TYPES
 
 const isIsland = false;
-const language = "";
+const language = "English";
 console.log({ isIsland, population, country, language });
 
 //LECTURE: Basic Operators
@@ -68,13 +68,26 @@ if (markBMI > johnBMI) {
 
 };
 
-//LECTURE: Equality Operators: == vs. === 
+//LECTURE: Equality Operators: == vs. ===
 
-numNeighbours = Number(prompt(`How many neighbouring countries does your country have?`));
-if (numNeighbours === 1) {
-    console.log(`Only 1 border!`);
-} else if (numNeighbours > 1) {
-    console.log(`More than 1 border!`);
+// numNeighbours = Number(prompt(`How many neighbouring countries does your country have?`));
+// if (numNeighbours === 1) {
+//     console.log(`Only 1 border!`);
+// } else if (numNeighbours > 1) {
+//     console.log(`More than 1 border!`);
+// } else {
+//     console.log(`No borders!`);
+// }
+
+//LECTURE: Logical Operators 
+
+if (language === 'English' && !isIsland && population < 50000000) {
+    console.log(`Welcome to ${country}, it meets all your criteria!`);
 } else {
-    console.log(`No borders!`);
+    console.log(`Sorry, ${country} does not meet all your criteria!`);
 }
+
+
+
+//CODING CHALLENGE #3
+
