@@ -91,3 +91,20 @@ if (language === 'English' && !isIsland && population < 50000000) {
 
 //CODING CHALLENGE #3
 
+dolScore1 = 96;
+dolScore2 = 108;
+dolScore3 = 89;
+koaScore1 = 88;
+koaScore2 = 91;
+koaScore3 = 110;
+
+avgDolScore = (dolScore1 + dolScore2 + dolScore3) / 3;
+avgKoaScore = (koaScore1 + koaScore2 + koaScore3) / 3;
+
+if (avgDolScore > avgKoaScore) {
+    console.log(`Congrats to the Dolphins with an average score of ${avgDolScore} points!`);
+} else if (avgDolScore === avgKoaScore) {
+    console.log(`Ladies and gentlemen, we have a tie between the Dolphins and Koalas with a score of ${avgDolScore} points!`);
+} else {
+    console.log(`Congats to the Koalas with an average score of ${avgKoaScore} points!`);
+}
