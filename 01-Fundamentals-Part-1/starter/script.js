@@ -111,26 +111,51 @@ if (markBMI > johnBMI) {
 
 //LECTURE: The switch Statement
 
-const languageUsed = 'English';
+// const languageUsed = 'Mandarin';
 
-switch (languageUsed) {
-    case 'Chinese':
-    case 'Mandarin':
-        console.log('MOST number of native speakers!');
-        break
-    case 'Spanish':
-        console.log('2nd place in number of native speakers!');
-        break;
-    case 'English':
-        console.log('3rd place!');
-        break;
-    case 'Hindi' :
-        console.log('4th place!');
-        break;
-    case 'Arabic' :
-        console.log('5th place!');
-        break
-    default :
-        console.log('Great language too!');
-        
-}
+// switch (languageUsed) {
+//     case 'Chinese':
+//     case 'Mandarin':
+//         console.log('MOST number of native speakers!');
+//         console.log('By far the most spoken language in the world!')
+//         break
+//     case 'Spanish':
+//         console.log('2nd place in number of native speakers!');
+//         break;
+//     case 'English':
+//         console.log('3rd place!');
+//         break;
+//     case 'Hindi' :
+//         console.log('4th place!');
+//         break;
+//     case 'Arabic' :
+//         console.log('5th place!');
+//         break
+//     default :
+//         console.log('Great language too!');
+
+//}
+//LECTURE: The Conditional (Ternary) Operator
+
+population < 33000000 ? console.log(`${country}'s population is greater than the average`) : console.log(`${country}'s population is less than the average.`)
+
+
+//Coding Challenge #4
+
+let bill = 100;
+
+bill >= 50 && bill <= 300 ? console.log(`The bill is R${bill} and the tip is R${bill* 0.15}.`) :  console.log(`The bill is R${bill} and the tip is R${bill* 0.20}.`);
+
+
+// switch (bill) {
+//     case bill >= 50 && bill <= 300:
+//         console.log(`The bill is R${bill} and the tip is R${bill* 0.15}.`);
+//         break;
+
+//     case bill < 50 || bill > 300:
+//         console.log(`The bill is R${bill} and the tip is R${bill* 0.20}.`);
+//         break;
+
+// }
+
+//LECTURE: Functions
